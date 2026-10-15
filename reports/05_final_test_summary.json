@@ -1,0 +1,110 @@
+{
+  "phase": 5,
+  "component": "IT22131010 Domain & Typosquatting Detection",
+  "evaluation_type": "one-time frozen-model test evaluation",
+  "model_name": "LightGBM",
+  "frozen_threshold": 0.4460034805378068,
+  "numeric_feature_count": 74,
+  "test_rows": 35106,
+  "test_phishing": 14877,
+  "test_legitimate": 20229,
+  "metrics": {
+    "threshold": 0.4460034805378068,
+    "accuracy": 0.9978066427391329,
+    "balanced_accuracy": 0.9974832481456949,
+    "precision": 0.9994600431965442,
+    "recall": 0.9953619681387377,
+    "f1": 0.997406796214596,
+    "roc_auc": 0.9985442810757208,
+    "pr_auc": 0.998891621010558,
+    "mcc": 0.9955127747814879,
+    "specificity": 0.9996045281526521,
+    "false_positive_rate": 0.00039547184734786694,
+    "false_negative_rate": 0.004638031861262351,
+    "brier_score": 0.0020711169895254343,
+    "log_loss": 0.012643763984756234,
+    "true_negative": 20221,
+    "false_positive": 8,
+    "false_negative": 69,
+    "true_positive": 14808
+  },
+  "bootstrap_confidence_intervals_95": [
+    {
+      "metric": "accuracy",
+      "point_estimate": 0.9978066427391329,
+      "ci_lower_95": 0.9972939098729562,
+      "ci_upper_95": 0.9983193756053096,
+      "bootstrap_iterations": 1000
+    },
+    {
+      "metric": "balanced_accuracy",
+      "point_estimate": 0.9974832481456949,
+      "ci_lower_95": 0.9968939881650126,
+      "ci_upper_95": 0.9980617063429938,
+      "bootstrap_iterations": 1000
+    },
+    {
+      "metric": "precision",
+      "point_estimate": 0.9994600431965442,
+      "ci_lower_95": 0.9990548826281314,
+      "ci_upper_95": 0.9997973938089401,
+      "bootstrap_iterations": 1000
+    },
+    {
+      "metric": "recall",
+      "point_estimate": 0.9953619681387377,
+      "ci_lower_95": 0.9942192646366875,
+      "ci_upper_95": 0.9965046716407878,
+      "bootstrap_iterations": 1000
+    },
+    {
+      "metric": "f1",
+      "point_estimate": 0.997406796214596,
+      "ci_lower_95": 0.9967992884298637,
+      "ci_upper_95": 0.9980138057331491,
+      "bootstrap_iterations": 1000
+    },
+    {
+      "metric": "roc_auc",
+      "point_estimate": 0.9985442810757208,
+      "ci_lower_95": 0.9980215534864924,
+      "ci_upper_95": 0.9990226047253337,
+      "bootstrap_iterations": 1000
+    },
+    {
+      "metric": "pr_auc",
+      "point_estimate": 0.998891621010558,
+      "ci_lower_95": 0.9985304963642394,
+      "ci_upper_95": 0.9992275205891111,
+      "bootstrap_iterations": 1000
+    },
+    {
+      "metric": "mcc",
+      "point_estimate": 0.9955127747814879,
+      "ci_lower_95": 0.9944636904626205,
+      "ci_upper_95": 0.9965601624194608,
+      "bootstrap_iterations": 1000
+    },
+    {
+      "metric": "specificity",
+      "point_estimate": 0.9996045281526521,
+      "ci_lower_95": 0.9993079242671412,
+      "ci_upper_95": 0.9998516980572445,
+      "bootstrap_iterations": 1000
+    }
+  ],
+  "bootstrap_iterations": 1000,
+  "integrity": {
+    "model_bundle_sha256": "8bb714d3a14fbe0c82b5c1ca08422eaf3849e21f58b8ab652c2b896c9acf6e61",
+    "test_features_sha256": "6d43aa41235f7aa5d1fcb28e867519ab0f9011f338589b1ba66e37d3bcca252f",
+    "feature_schema_sha256": "e049e6a0f8654cc309efc299527c768fb96bf38bc61d1adb26e9a8a082768662",
+    "extractor_sha256": "84b9d49bc7e46d06d4c713687fe9d89155feda8bc2031328a1d7b5ff26a64472"
+  },
+  "evaluation_controls": {
+    "model_fitted_on_test": false,
+    "model_selected_on_test": false,
+    "threshold_tuned_on_test": false,
+    "test_predictions_used_to_change_model": false
+  },
+  "evaluated_at_utc": "2026-08-27T17:31:24.843433+00:00"
+}

@@ -1,0 +1,14 @@
+# Python 3.12 compatible research environment
+numpy>=1.26,<3.0
+pandas>=2.2,<3.0
+scikit-learn>=1.5,<2.0
+lightgbm>=4.5,<5.0
+tldextract>=5.1,<6.0
+rapidfuzz>=3.9,<4.0
+confusable-homoglyphs>=3.3,<4.0
+idna>=3.7,<4.0
+joblib>=1.4,<2.0
+matplotlib>=3.9,<4.0
+seaborn>=0.13,<1.0
+pytest>=8.0,<10.0
+

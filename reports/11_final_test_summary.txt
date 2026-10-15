@@ -1,0 +1,30 @@
+IT22131010 - FINAL FROZEN TEST EVALUATION
+================================================================
+Model fitted on test: NO
+Model/weight selected on test: NO
+Threshold tuned on test: NO
+URLs visited: NO
+Test rows: 35,105
+Frozen threshold: 0.328180
+
+FROZEN ML HYBRID:
+  Accuracy: 0.746475
+  Precision: 0.725816
+  Recall: 0.645604
+  F1: 0.683364
+  ROC-AUC: 0.811855
+  PR-AUC: 0.790709
+  MCC: 0.475433
+  Specificity: 0.820654
+
+FULL COMPONENT WITH RULES:
+  Accuracy: 0.749238
+  Precision: 0.727709
+  Recall: 0.652326
+  F1: 0.687959
+  MCC: 0.481405
+  Specificity: 0.820505
+
+Controlled robustness: 10/10
+Rules corrected ML errors: 110
+Rules introduced errors: 13

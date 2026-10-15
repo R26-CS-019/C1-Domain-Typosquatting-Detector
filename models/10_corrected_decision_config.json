@@ -1,0 +1,24 @@
+{
+  "phase": 10,
+  "model_name": "corrected_domain_hybrid",
+  "tabular_weight": 0.55,
+  "character_weight": 0.44999999999999996,
+  "frozen_validation_threshold": 0.32818048269648004,
+  "positive_class": "phishing",
+  "strong_rule_features": [
+    "invalid_or_wrong_tld",
+    "edit_insertion",
+    "edit_deletion",
+    "edit_substitution",
+    "edit_transposition",
+    "keyboard_neighbor_substitution",
+    "leet_or_digit_letter_match",
+    "hyphen_insertion",
+    "missing_dot_pattern",
+    "added_suspicious_word",
+    "misleading_subdomain_pattern",
+    "dangerous_unicode_confusable"
+  ],
+  "exact_trusted_domain_override": "legitimate",
+  "test_split_used": false
+}

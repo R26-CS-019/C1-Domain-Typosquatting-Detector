@@ -1,0 +1,25 @@
+IT22131010 - PHASE 9 CORRECTED DOMAIN FEATURE SUMMARY
+================================================================
+Offline domain analysis only: YES
+Previous pilot model loaded: NO
+Locked test split read: NO
+Corrected ML features: 50
+Evidence-only features: 5
+Excluded shortcut features: 25
+Controlled tests passed: 10/10
+Development row limit: None
+
+TRAIN:
+  Source rows: 165,160
+  Processed rows: 165,160
+  Time: 35.49 seconds
+VALIDATION:
+  Source rows: 35,105
+  Processed rows: 35,105
+  Time: 7.70 seconds
+
+ML shortcut policy:
+  Scheme/HTTPS features excluded: YES
+  Path/query/fragment features excluded: YES
+  Full-URL formatting features excluded: YES
+  Subdomain source-marker features excluded from ML: YES

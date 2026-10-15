@@ -1,0 +1,84 @@
+{
+  "phase": 8,
+  "experiment": "corrected domain-focused final experiment",
+  "previous_model_status": "rejected pilot - URL-format shortcut learning",
+  "previous_model_reused": false,
+  "source_dataset": "D:\\new pp2 component\\PhiUSIIL_Phishing_URL_Dataset.csv",
+  "source_sha256": "a236549cd369cd80bd478ff8e1779cbf44c58d5c3f79f7a51a1adbed7d06d1c6",
+  "source_modified": false,
+  "official_label_mapping": {
+    "0": "phishing",
+    "1": "legitimate"
+  },
+  "model_positive_class": {
+    "is_phishing=1": "phishing"
+  },
+  "random_seed": 2026,
+  "split_method": "StratifiedGroupKFold by registered domain",
+  "number_of_folds": 20,
+  "fold_allocation": {
+    "train": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "validation": [
+      14,
+      15,
+      16
+    ],
+    "test": [
+      17,
+      18,
+      19
+    ]
+  },
+  "original_rows": 235795,
+  "duplicates_removed": 425,
+  "clean_rows": 235370,
+  "unique_hostnames": 220077,
+  "unique_registered_domains": 175509,
+  "mixed_label_registered_domains": 120,
+  "splits": {
+    "train": {
+      "rows": 165160,
+      "percentage": 70.17037005565705,
+      "phishing": 70768,
+      "legitimate": 94392,
+      "unique_hostnames": 155901,
+      "registered_domains": 120769
+    },
+    "validation": {
+      "rows": 35105,
+      "percentage": 14.914814972171476,
+      "phishing": 14876,
+      "legitimate": 20229,
+      "unique_hostnames": 32379,
+      "registered_domains": 27378
+    },
+    "test": {
+      "rows": 35105,
+      "percentage": 14.914814972171476,
+      "phishing": 14876,
+      "legitimate": 20229,
+      "unique_hostnames": 31797,
+      "registered_domains": 27362
+    }
+  },
+  "overlap_checks_passed": true,
+  "test_split_locked": true,
+  "test_must_not_be_read_during_feature_design_or_training": true,
+  "one_labeled_dataset_used": true,
+  "created_at_utc": "2026-08-27T18:21:20.555756+00:00"
+}

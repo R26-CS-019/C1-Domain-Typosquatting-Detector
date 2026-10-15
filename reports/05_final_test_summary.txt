@@ -1,0 +1,29 @@
+IT22131010 - FINAL FROZEN-MODEL TEST RESULTS
+============================================================
+Model: LightGBM
+Frozen threshold: 0.446003
+Test rows: 35,106
+Phishing rows: 14,877
+Legitimate rows: 20,229
+
+Final metrics with stratified bootstrap 95% confidence intervals:
+  accuracy: 0.997807 [0.997294, 0.998319]
+  precision: 0.999460 [0.999055, 0.999797]
+  recall: 0.995362 [0.994219, 0.996505]
+  f1: 0.997407 [0.996799, 0.998014]
+  roc_auc: 0.998544 [0.998022, 0.999023]
+  pr_auc: 0.998892 [0.998530, 0.999228]
+  mcc: 0.995513 [0.994464, 0.996560]
+  specificity: 0.999605 [0.999308, 0.999852]
+
+Confusion matrix counts:
+  True legitimate: 20,221
+  False phishing alarms: 8
+  Missed phishing URLs: 69
+  Correct phishing detections: 14,808
+
+Evaluation controls:
+  Model retrained on test: NO
+  Model selected on test: NO
+  Threshold tuned on test: NO
+  Test results used to change the model: NO

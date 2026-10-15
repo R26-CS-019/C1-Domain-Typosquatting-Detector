@@ -1,0 +1,9 @@
+{
+  "selected_model": "LightGBM",
+  "phishing_threshold": 0.4460034805378068,
+  "feature_count": 74,
+  "feature_schema_sha256": "e049e6a0f8654cc309efc299527c768fb96bf38bc61d1adb26e9a8a082768662",
+  "lightgbm_best_iteration": 240,
+  "selection_metric": "tuned validation F1",
+  "test_split_used": false
+}

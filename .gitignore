@@ -1,0 +1,26 @@
+# Python environment and caches
+ai_research_env/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
+.env
+.idea/
+.vscode/
+
+# Datasets and big data files
+data/
+dataset/
+datasets/
+*.parquet
+*.sqlite
+*.sqlite3
+*.zip
+results/*.csv
+
+# PhiUSIIL dataset stays local (link it in README)
+*PhiUSIIL*.csv

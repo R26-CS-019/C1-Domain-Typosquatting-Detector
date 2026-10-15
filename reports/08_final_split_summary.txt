@@ -1,0 +1,29 @@
+IT22131010 - CORRECTED FINAL DOMAIN EXPERIMENT SPLIT
+================================================================
+Previous 99% model: REJECTED PILOT (shortcut learning)
+Source SHA-256: a236549cd369cd80bd478ff8e1779cbf44c58d5c3f79f7a51a1adbed7d06d1c6
+Random seed: 2026
+Clean rows: 235,370
+Unique registered domains: 175,509
+
+TRAIN:
+  Rows: 165,160 (70.1704%)
+  Phishing: 70,768
+  Legitimate: 94,392
+  Registered domains: 120,769
+VALIDATION:
+  Rows: 35,105 (14.9148%)
+  Phishing: 14,876
+  Legitimate: 20,229
+  Registered domains: 27,378
+TEST:
+  Rows: 35,105 (14.9148%)
+  Phishing: 14,876
+  Legitimate: 20,229
+  Registered domains: 27,362
+
+Registered-domain overlap across splits: 0
+All integrity checks passed: YES
+Source CSV modified: NO
+Previous pilot model modified: NO
+Final test split locked: YES

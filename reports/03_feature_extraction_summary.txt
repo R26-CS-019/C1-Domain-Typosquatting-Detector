@@ -1,0 +1,12 @@
+IT22131010 - Phase 3 Feature Extraction Summary
+====================================================
+Offline URL analysis only: YES
+Numeric model features: 74
+Trusted rule entries: 68
+Controlled typosquatting tests passed: 8/8
+train: 165,158 rows, 37.97 seconds
+validation: 35,106 rows, 8.25 seconds
+test: 35,106 rows, 8.21 seconds
+NaN numeric features: 0
+Infinite numeric features: 0
+Feature schema SHA-256: e049e6a0f8654cc309efc299527c768fb96bf38bc61d1adb26e9a8a082768662

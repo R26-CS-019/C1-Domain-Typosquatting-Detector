@@ -1,0 +1,54 @@
+{
+  "audit_version": 1,
+  "source_csv": "D:\\new pp2 component\\PhiUSIIL_Phishing_URL_Dataset.csv",
+  "source_size_bytes": 56854345,
+  "source_sha256": "a236549cd369cd80bd478ff8e1779cbf44c58d5c3f79f7a51a1adbed7d06d1c6",
+  "row_count": 235795,
+  "column_count": 56,
+  "label_mapping": {
+    "0": "phishing",
+    "1": "legitimate"
+  },
+  "observed_labels": [
+    0,
+    1
+  ],
+  "invalid_label_rows": 0,
+  "label_counts": [
+    {
+      "dataset_label": 0,
+      "class_name": "phishing",
+      "row_count": 100945,
+      "percentage": 42.8105
+    },
+    {
+      "dataset_label": 1,
+      "class_name": "legitimate",
+      "row_count": 134850,
+      "percentage": 57.1895
+    }
+  ],
+  "missing_url_rows": 0,
+  "missing_domain_rows": 0,
+  "missing_tld_rows": 0,
+  "unique_urls": 235370,
+  "exact_duplicate_url_rows": 425,
+  "urls_with_conflicting_labels": 0,
+  "empty_or_unparseable_hostname_rows": 0,
+  "unique_hostnames": 220077,
+  "hostnames_with_conflicting_labels": 54,
+  "unique_registered_domains": 175509,
+  "registered_domains_with_conflicting_labels": 120,
+  "url_length": {
+    "count": 235795.0,
+    "mean": 35.366954,
+    "std": 41.214346,
+    "min": 14.0,
+    "25%": 24.0,
+    "50%": 28.0,
+    "75%": 35.0,
+    "max": 6097.0
+  },
+  "unknown_columns_requiring_review": [],
+  "raw_csv_modified": false
+}
