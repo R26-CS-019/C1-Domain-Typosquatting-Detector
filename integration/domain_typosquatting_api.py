@@ -2,6 +2,7 @@ from pathlib import Path
 import sys
 
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 
@@ -38,6 +39,13 @@ app = FastAPI(
         "detection component."
     ),
     version="1.0"
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["GET", "POST"],
+    allow_headers=["Content-Type", "X-API-Key"],
 )
 
 
@@ -83,5 +91,3 @@ def predict(request: URLRequest):
             status_code=400,
             detail=str(error)
         )
-
-
